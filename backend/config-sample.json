@@ -1,0 +1,9 @@
+{
+    "database_connection": {
+      "host": "localhost",
+      "user": "root",
+      "database": "nsfw",
+      "password": "Ilmctfm12"
+    }
+  }
+  
