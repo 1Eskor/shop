@@ -7,10 +7,11 @@ import Home from "./pages/Home";
 function App() {
   //const [userAccountAddress, setUserAccountAddress] = useState("");
 
+  let hej = "hello";
   return (
     <DataContext.Provider value={{ userAccountAddress: "address here" }}>
       <body class="stretched device-xl bg-white no-transition">
-        <Navbar />
+        <Navbar hej={hej} />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

@@ -4,10 +4,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import classes from "./Navbar.module.css";
 
-const Navbar = () => {
+const Navbar = ({ hej }) => {
+  console.log(hej, "NAVBAR PROPS");
   return (
     <header className={classes.header}>
       <nav>
+        {hej}
         <ul>
           <div style={{ fontSize: "xx-large", marginRight: "50px" }}>
             <FontAwesomeIcon icon={faArrowRight} /> NSFW
