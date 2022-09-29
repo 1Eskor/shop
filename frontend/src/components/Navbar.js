@@ -31,6 +31,15 @@ const Navbar = ({ hej }) => {
               About
             </NavLink>
           </li>
+      
+          <li>
+            <NavLink
+              className={(navObj) => (navObj.isActive ? classes.active : "")}
+              to="/todo"
+            >
+              Todo
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </header>

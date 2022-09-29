@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import Todo from "./pages/Todo";
+
 function App() {
   //const [userAccountAddress, setUserAccountAddress] = useState("");
 
@@ -15,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/todo" element={<Todo />} />
         </Routes>
       </body>
     </DataContext.Provider>
